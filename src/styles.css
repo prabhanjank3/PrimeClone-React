@@ -1,0 +1,82 @@
+body {
+  background-color: #313146;
+  color: white;
+
+  padding-left: 1%;
+}
+.col,
+.row {
+  border: 1px solid #313146;
+  padding: 0px;
+}
+.flex {
+  display: flex;
+  overflow-x: auto;
+}
+.flex::-webkit-scrollbar {
+  display: none;
+}
+
+.section-title-row {
+  padding: 15px 0px 10px 0px;
+  margin: 0px;
+}
+.section-title-container {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/* Carousel */
+
+.top-carousel-img {
+  height: 300px;
+}
+
+/* Movie Poster */
+
+.movie-poster {
+  width: 100%;
+}
+.movie-heading-row {
+  padding: 0% 0% 2% 0%;
+  margin-top: 5%;
+}
+@media (max-width: 800px) {
+  /* CSS that should be displayed if width is equal to or less than 800px goes here */
+  .movie-heading-row {
+    text-align: center;
+    padding: 0% 0% 2% 0%;
+    margin-top: 5%;
+  }
+}
+
+.watch-now-row {
+  padding: 2% 0%;
+}
+.movie-info-row {
+  margin: 0% 0% 20px 0%;
+  text-align: center;
+}
+.description-col {
+  padding: 20px;
+}
+.movie-description {
+  font-weight: 700;
+}
+.play-btn {
+  margin-right: 10px;
+}
+.watch-now-btn {
+  width: 100%;
+}
+
+/* Homepage */
+.movie-card {
+  height: 100%;
+  margin-left: 10px;
+  min-width: 170px;
+}
+.movie-card-image {
+  height: 200px;
+  width: 170px;
+}

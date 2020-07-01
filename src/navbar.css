@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+.navbar-brand {
+  font-family: "Caveat", cursive;
+  font-size: 2rem;
+}
+.brand-link {
+  color: white;
+}
+.brand-link:hover {
+  color: white;
+  text-decoration: none;
+}
+.login-btn {
+  padding: 5px 15px;
+}
